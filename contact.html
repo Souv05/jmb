@@ -28,7 +28,7 @@
       </header>
     <div class="contact_us_6" style="background-image: url(/Assets/Contact/transport\ in\ dark\ mode\ with\ more\ black.png);">
         <div class="responsive-container-block container">
-          <form class="Contact-form" id="Contact-form" onsubmit="main(e)">
+          <form class="Contact-form" id="Contact-form" action="data.php">
             <div class="container-block form-wrapper">
               <div class="mob-text">
                 <p class="text-blk contactus-head">
@@ -117,7 +117,7 @@ function main(e) {
     console.log("Query:", txt);
 
     // Send data to the server using fetch API
-    fetch('http://localhost:3000/submit-form', {
+    fetch('http://localhost:3000/send-email', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

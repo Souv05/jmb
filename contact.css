@@ -872,13 +872,14 @@ body {
     font-family: Arial, sans-serif; /* Font family */
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
- }
- 
- .footer-container {
+    text-align: center; /* Center the text in the footer */
+}
+
+.footer-container {
     display: flex; /* Flexbox layout for the footer sections */
-    justify-content: space-between; /* Space between sections */
+    justify-content: center; /* Center the sections */
     flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
- }
+}
  
  .footer-section {
     flex: 1; /* Each section takes equal space */

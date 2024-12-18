@@ -111,26 +111,25 @@
       display: block; /* Show hamburger icon on small screens */
     }
   }
-.footer {
-    background-color: beige; /* Dark background for the footer */
-    color: #06781b; /* White text color */
+  .footer {
+    background-color: beige; /* Background color for the footer */
+    color: #06781b; /* Text color */
     padding: 40px 20px; /* Padding for the footer */
     font-family: Arial, sans-serif; /* Font family */
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
- }
+    border-top-left-radius: 25px; /* Rounded corners */
+    border-top-right-radius: 25px; /* Rounded corners */
+    text-align: center; /* Center the text in the footer */
+}
  
- .footer-container {
-    display: flex; /* Flexbox layout for the footer sections */
-    justify-content: space-between; /* Space between sections */
-    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
- }
+.footer-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
  
- .footer-section {
-    flex: 1; /* Each section takes equal space */
-    min-width: 200px; /* Minimum width for each section */
-    margin: 10px; /* Margin around sections */
- }
+.footer-section {
+  margin: 10px 0; /* Add some margin between sections */
+}
  
  .footer-section h3 {
     border-bottom: 1px solid #fff; /* Underline for section headings */
